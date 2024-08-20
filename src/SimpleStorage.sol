@@ -27,4 +27,5 @@ contract SimpleStorage {
         listOfPeople.push(Person(_favoriteNumber, _name));
         nameToFavoriteNumber[_name] = _favoriteNumber;
     }
+    
 }
